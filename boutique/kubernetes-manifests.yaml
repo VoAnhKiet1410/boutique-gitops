@@ -50,7 +50,8 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.6
+          image: ghcr.io/voanhkiet1410/boutique-frontend:sha-67ea426
+          imagePullPolicy: Always
           ports:
           - containerPort: 8080
           readinessProbe:
