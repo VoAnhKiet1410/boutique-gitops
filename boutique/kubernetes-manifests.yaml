@@ -50,7 +50,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/voanhkiet1410/boutique-frontend:sha-67ea426
+          image: ghcr.io/voanhkiet1410/boutique-frontend:sha-afd5d9d
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
